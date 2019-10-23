@@ -5,13 +5,24 @@
     <title>Title</title>
 </head>
 <body onload="open()">
+<img src="logo.png" alt="honda" width="1340" height="200" style="background-color: red">
+<img name="slide" width="1340" height="400">
+<table border="1" width="1340" cellspacing="0" cellpadding="3" id="result0">
 
-<img src="logo.png" alt="honda" width="1346" height="200" style="background-color: red">
-<img name="slide" width="1346" height="400">
+    <form action="javascript:void(0);" method="POST" onsubmit="app.add()">
+        <div>
+            <input class="textbox" type="text" id="add-name" placeholder="New Product">
+        </div>
+        <div>
+            <input class="textbox" type="link" id="add-image" placeholder="New Image">
+        </div>
 
-<table border="1" width="660" cellspacing="0" cellpadding="3" id="result0"></table>
 
+        <input  class="sub" type="submit" value="Add">
+    </form
+</table>
 <script src="owl.js">
+
 </script>
 </body>
 </html>
